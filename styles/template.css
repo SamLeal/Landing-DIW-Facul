@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+html, main {
+    background: #2b3035;
+}
+
+
+h2, h6, h5, h4 {
+    color: white;
+}
+
+a {
+    font-size: large;
+    margin-block: -5px;
+}
+
+p {
+    color: white;
+}
+
+.header{
+    padding: 0px 0px 10px 0px;
+    background: #2b3035;
+}
+
+.logo{
+    width: 60px;
+}
+
+p.card-text {
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+
+img.navbar-brand {
+    width: 150px;
+    height: 130px;
+    margin-right: 25px;
+}
+
+.navbar-nav {
+    margin-left: 10%;
+}
+
+.container {
+    text-align: justify;
+}
+
+.carousel-item {
+    color: white;
+    font-size: 14px;
+}
+
+.carousel-indicators {
+    top: 90%;
+}
+
+.container-info {
+    margin-right: 18%;
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-item img {
+        width: 80%;
+        padding-left: 20%;
+    }
+
+    .container-info {
+        margin-top: 10%;
+        padding-left: 10%;
+        margin-right: 18%;
+        margin-bottom: 10%;
+    }
+
+    .hiddensm {
+        display: none;
+    }
+    
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-header-container {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+.img-circle {
+
+    text-align: center;
+    margin: 0 auto;
+}
+
+.fa {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+.footertext {
+    margin-top: 15px;
+    align-self: center;
+    color: #212529;
+}
+
+.carousel-row {
+    margin-bottom: 35px;
+}
+
+.dropdown--item {
+    text-align: right;
+}
+
+.container-carregar {
+    text-align: right; margin-top: 20px;
+}
+
+.container-margin {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-props {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+.display-responsivo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+@media screen and (max-width: 576px){
+    
+    .ajuste {
+        width: 40vh;
+        margin-bottom: 20px;
+        width: 60%;
+        margin: 0 auto;
+        
+    }
+
+    .sumirxs {
+        display: none;
+    }
+
+    .button-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img-circle {
+        width: 30%;
+    }
+
+}
+
+.card > img {
+    margin-bottom: 20px;
+    max-height: 250px;
+    max-width: 200px;
+}
+
+.card {
+    max-width: 200px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+
+}
+
+.padding-top {
+    padding-top: 10px;
+}
+
+.entrevistas {
+    background-color: #22262b;
+    color: white;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 840px){
+    .entrevista-primeira {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sumirsm {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+
+    .sumirl {
+        display: none;
+    }
+}
+
+.novidades {
+    color: white;
+}
+
+.novimg {
+    max-width: 400px;
+}
+
+.item {
+    height: 100%;
+
+}
+
+.fa::before {
+    font-size: 45px;
+}
+
+.fa-star::before {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.fa-star {
+    margin: 2px;
+}

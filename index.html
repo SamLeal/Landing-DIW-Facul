@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    
+    <!-- Bootstrap CSS 5.1.3 - 04/2022 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/template.css">
+    <!-- Fontawesome 6.1.1 - 04/2022 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Fonte do texto -->
+
+    <title>Portal de Filmes</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/logo.png">
+</head>
+
+<body>
+    <header class="header">
+        <!-- Barra de navegação header -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark header--cor" id="preto">
+            <div class="container-fluid">
+                <img class=" logo" src="imgs/logo.png" alt="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav" >
+                    <ul class="navbar-nav me-auto mb-2 mb-sm- mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#lancamentos">Lançamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#destaques">Em destaque</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#avaliacoes">Avaliações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#entrevistas">Entrevistas & Making of</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#novidades">Novidades</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar filme"
+                            aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Bloco de Lançamento -->
+        <div class="container main">
+            <h2 class="lancamentos margin-bottom" id="lancamentos"><b>Lançamentos</b></h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+
+                    <!-- 1 Filme -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <div class="row carousel-row " >
+                                <div class="margin-bottom col-xs-12 col-12 col-md-6 " style="min-height: 294px;">
+                                    <iframe class="embed-responsive-item" width="100%" height="100%" src="https://www.youtube.com/embed/DGnatLS9Ohw"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-xs-12 col-12 col-md-6">
+                                    <p1 height="100% ">
+                                        <b>Sinopse:</b> O pirata Jack Sparrow tem seu navio saqueado e roubado pelo capitão Barbossa e sua tripulação. Com o navio de Sparrow, Barbossa invade a cidade de Port Royal, levando consigo Elizabeth Swann, filha do governador. Para recuperar sua embarcação, Sparrow recebe a ajuda de Will Turner, um grande amigo de Elizabeth. Eles desbravam os mares em direção à misteriosa Ilha da Morte.
+                                    </p1>
+                                    <p></p>
+                                    <div class="row ">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+                                            <b>Diretor:</b>Gregor Verbinski
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                                            <b>Roteiro:</b> Ted Elliot 
+                                        </div>
+
+                                       
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+                                        <b>Elenco:</b> Johnny Depp, Orlando Bloom, Keira Knightley
+                                    </div>
+
+                                    <div class="col-12">
+                                        <b>Estreia:</b> 29 de agosto de 2003
+                                    </div>
+
+                                    <div class="margin-bottom col-12">
+                                        <b>Avaliação:</b>
+                                        <span class="fa fa-star checked ">
+                                        </span>
+                                        <span class="fa fa-star checked ">
+                                        </span>
+                                        <span class="fa fa-star checked ">
+                                        </span>
+                                        <span class="fa fa-star checked ">
+                                        </span>
+                                        <span class="fa fa-star ">
+                                        </span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2 Filme.... , replicar o filme 1 4x-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bloco de Destaque -->
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="destaques margin-bottom" id="destaques"><b>Em destaque</b></h2>
+                </div>
+                <div class="col-6">
+                    <div class="dropdown dropdown--item" >
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categoria: Todos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Aventura</a></li>
+                            <li><a class="dropdown-item" href="#">Romance</a></li>
+                            <li><a class="dropdown-item" href="#">Terror</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row display-responsivo">
+                <div class="col-xs-6 col-sm-4 col-lg-3 col-xl-3" width="100%">
+                    <div class="card ajuste" width="100%">
+                        <img src="imgs/filme-1.png" class="card-img-top" alt="InterEstelar">
+                        <div class="card-body">
+                            <p class="card-text"><b>InterEstelar</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hiddensm margin-bottom sumir col-xs-4 col-sm-3 col-lg-3 col-xl-3">
+                    <div class="card ajuste" width="100%">
+                        <img src="imgs/filme-2.png" class="card-img-top" alt="Perdido em Marte">
+                        <div class="card-body">
+                            <p class="card-text"><b>Perdido em Marte</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sumirxs col-xs-6 col-sm-4 col-lg-3 col-xl-3">
+                    <div class="card ajuste" width="100%">
+                        <img src="imgs/filme-3.png" class="card-img-top" alt="Rei Leão Filme">
+                        <div class="card-body">
+                            <p class="card-text"><b>Rei Leão</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sumirsm sumir col-xs-6 col-sm-4 col-lg-3 col-xl-3 ">
+                    <div class="card ajuste" width="100%">
+                        <img src="imgs/filme-4.png" class="card-img-top" alt="StarWars">
+                        <div class="card-body">
+                            <p class="card-text"><b>Star Wars</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container container-carregar" >
+            <div class=" row ">
+                <div class="margin-bottom col-12 button-row">
+                    <button type="button" class="btn btn-secondary btn-sm">MAIS FILMES</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bloco de Avaliação pelos Usuários -->
+        <div class="container">
+            <h2 class="avaliacoes margin-bottom" id="avaliacoes"><b>Últimas avaliações</b></h2>
+        </div>
+        <div class="container">
+            <div class="row display-responsivo">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="profile-header-img margin-bottom col-xs-12 col-sm-10 col-lg-3">
+                                <div class="profile-header-container">
+                                    <img class="img-circle" src="imgs/perfil-1.png" height="100%" width="100%" />
+                                </div>
+                            </div>
+                            <div class="margin-bottom col-sm-12 col-lg-9 ">
+                                <h6><b>Samuel Sousa Leal</b></h6>
+                                <p><b>Avaliação:</b> No filme interestelar aprendemos muito sobre ciencia, relatividade com uma trama bem pensada com detalhes que vao te impressionar.</p>
+                                <p>★★★★★ - 12/04/2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="margin-bottom col-xs-12 col-sm-10 col-lg-3">
+                                <div class="profile-header-container">
+                                    <img class="img-circle" src="imgs/perfil-2.png" height="100%" width="100%" />
+                                </div>
+                            </div>
+                            <div class="margin-bottom col-sm-12 col-lg-9">
+                                <h6><b>Maria Eduarda</b></h6>
+                                <p><b>Avaliação:</b> O filme Rei Leão é extremamente emocionante e mexe com sua criança interior, trama involvente e personagens cativantes, além de  musicas incriveis, voce vai se apaixonar.</p>
+                                <p>★★★★☆ - 07/04/2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hiddensm col-lg-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="margin-bottom col-xs-12 col-sm-10 col-lg-3">
+                                <div class="profile-header-container">
+                                    <img class="img-circle" src="imgs/perfil-3.png" height="100%" width="100%" />
+                                </div>
+                            </div>
+                            <div class="margin-bottom col-sm-12 col-lg-9">
+                                <h6><b>Ana Silva</b></h6>
+                                <p><b>Avaliação:</b> Um otimo filme com batalhas emocionantes, porem poderia ser  um pouco melhor desenvolvido, um bom filme, nada além disso.</p>
+                                <p>★★★☆☆ - 01/04/2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container container-carregar">
+            <div class="row">
+                <div class="margin-bottom col-12 button-row">
+                    <button type="button" class="btn btn-secondary btn-sm">MAIS AVALIAÇÕES</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bloco de Entrevistas & Making of -->
+        <section class="entrevistas">
+            <div class="container">
+              <h1 class="avaliacoes margin-bottom">
+                <b>Entrevistas & Making-Of</b>
+              </h1>
+              <div class="row entrevista-flex">
+                <div class="entrevista-primeira col-md margin-bottom">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rkb0r2-vYK0" allowfullscreen>
+                    </iframe>
+                  </div>
+                  <h4 class="padding-top">
+                    <b>
+                      Filme: 
+                    </b>
+                    <span>
+                      O Rei Leão
+                    </span>
+                  </h4>
+                  <h6 class="padding-top">
+                    <b>
+                      Diretor: 
+                    </b>
+                    <span>
+                      Jeff Fowler
+                    </span>
+                  </h6>
+                  <h6>
+                    <b>
+                      Roteiro: 
+                    </b>
+                    <span>
+                      Josh Miller, Patrick Casey
+                    </span>
+                  </h6>
+                  <h6>
+                    <b>
+                      Estreia: 
+                    </b>
+                    <span>
+                      1994
+                    </span>
+                  </h6>
+                </div>
+                <div class="sumirsm col-md margin-bottom">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/On8S4X_j5Io" allowfullscreen>
+                    </iframe>
+                  </div>
+                  <h4 class="padding-top">
+                    <b>
+                      Filme: 
+                    </b>
+                    <span>
+                      Batman
+                    </span>
+                  </h4>
+                  <h6 class="padding-top"> 
+                    <b>
+                      Diretor: 
+                    </b>
+                    <span>
+                      Matt Reeves
+                    </span>
+                  </h6>
+                  <h6>
+                    <b>
+                      Roteiro: 
+                    </b>
+                    <span>
+                      Matt Reeves, Peter Craig
+                    </span>
+                  </h6>
+                  <h6>
+                    <b>
+                      Estreia: 
+                    </b>
+                    <span>
+                      2022
+                    </span>
+                  </h6>           
+                </div>
+                <div  class="sumirl col-md margin-bottom">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GfV0gzcdaVs" allowfullscreen>
+                    </iframe>
+                  </div>
+                  <h4 class="padding-top">
+                    <b>
+                      Filme: 
+                    </b>
+                    <span>
+                      InterEstelar
+                    </span>
+                  </h4>
+                  <h6 class="padding-top">
+                    <b>
+                      Diretor: 
+                    </b>
+                    <span>
+                      Jon Watts
+                    </span>
+                  </h6>
+                  <h6>
+                    <b>
+                      Roteiro: 
+                    </b>
+                    <span>
+                      Erik Sommers, Chris McKenna
+                    </span>
+                  </h6>
+                  <h6>
+                    <b>
+                      Estreia: 
+                    </b>
+                    <span>
+                      2014
+                    </span>
+                  </h6>
+                </div>
+              </div>
+            </section>
+                    <!-- Bloco de Sobre -->
+            <section class="novidades">
+                <div class="container ">
+                    <div class="row">    
+                        <div class="col-sm-12 col-xl-8">
+                            <div>
+                                <h1 class="padding-top margin-bottom">
+                                  <b>Novidades</b>
+                                </h1>
+                            </div>
+                            <div>
+                                <div class="row media">
+                                  <div class="col colimages">
+                                    <img src="imgs/noticia_1.jpg" class="mr-3 novimg" alt="Novidade 1">
+                                  </div>
+                                  <div class="col media-body padding-top">
+                                    <h5 class="mt-0 mb-1"><b>
+                                      Por que Homem de Ferro morreu e Capitão América foi salvo em Ultimato? Diretor explica decisão</b>
+                                    </h5>
+                                    <p>
+                                      Vingadores: Ultimato (2019) foi a conclusão da Saga do Infinito e, por isso, é considerado o filme mais importante do Universo Cinematográfico Marvel até o momento, contando com diversos momentos marcantes para a franquia. 
+                                    </p>
+                                  </div>
+                                </div>
+                                <hr class="solid">
+                                <div class="sumirsm row media my-4">
+                                  <div class="col colimages">
+                                    <img src="imgs/noticia_2.jpg" class="mr-3 novimg" alt="Novidade 1">
+                                  </div>
+                                  <div class="col media-body">
+                                    <h5 class="mt-0 mb-1"><b>
+                                      Animais Fantásticos 3: Diálogo de Dumbledore é censurado</b>
+                                    </h5>
+                                    <p>
+                                      Referências a um relacionamento gay em "Os Segredos de Dumbledore" foram censuradas no lançamento na China.
+                                    </p>
+                                  </div>
+                                </div>
+                                <hr class="solid">
+                                <div class="sumirsm row media">
+                                  <div class="col colimages">
+                                    <img src="imgs/noticia_3.jpg" class="mr-3 novimg" alt="Novidade 1">
+                                  </div>
+                                  <div class="col media-body">
+                                    <h5 class="mt-0 mb-1"><b>
+                                      Cidade Perdida: Sandra Bullock elogia performance de Channing Tatum e Daniel Radcliffe no filme</b>
+                                    </h5>
+                                    <p>
+                                      O filme narra a corrida contra o tempo em uma história que envolve um modelo, uma escritora e um ambicioso milionário.
+                                    </p>
+                                  </div>
+                                </div>
+                                <hr class="solid">
+                              </div>
+                            </div>
+                            <div class="col-sm-12 col-xl-4">
+                              <h1 class=" pd-bottom" style="text-align: left;">
+                                <b>Sobre</b>
+                              </h1>
+                              <h6 style="font-weight: 400; text-align: justify;">
+                                Portal de Filmes é uma área de cinéfilos para cinéfilos. Aqui você pode ver tudo sobre filmes, seus criadores, atores, noticias e making off, além de avaliações de outras pessoas que assistiram ao filmes. 
+                              </h6>
+                              <div>
+                                <h3 style="text-align: left; padding-top: 10px;">
+                                  <b>Editorial</b>
+                                </h3>
+                                <h6>
+                                  <b>
+                                    Redação: 
+                                  </b>
+                                  <span style="font-weight: 400;">
+                                    Rafael Santos
+                                  </span>
+                                </h6>
+                                <h6>
+                                  <b>
+                                    Pesquisa: 
+                                  </b>
+                                  <span style="font-weight: 400;">
+                                    Daniel Oliveira
+                                  </span>
+                                </h6>
+                                <h6>
+                                  <b>
+                                    Gerente Geral: 
+                                  </b>
+                                  <span style="font-weight: 400;">
+                                    Coraline Santos
+                                  </span>
+                                </h6>
+                              </div>
+                              
+                              <div>
+                                <h3 style="text-align: left; padding-top: 10px;">
+                                  <b>Redes sociais</b>
+                                </h3>
+                                <div>
+                                  <a class="social_m item" target="_blank" rel="noopener" aria-label="Facebook" href="https://www.facebook.com/">
+                                    <span class="fa fa-facebook-official">
+                                    </span>
+                                  </a>
+                                  <a class="social_m item" target="_blank" rel="noopener" aria-label="Twitter" href="https://twitter.com/">
+                                    <span class="fa fa-twitter-square">
+                                    </span>
+                                  </a>
+                                  <a class="social_m item" target="_blank" rel="noopener" aria-label="Instagram" href="https://www.instagram.com/">
+                                    <span class="fa fa-instagram">
+                                    </span>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>        
+    </main>
+    <!-- Bloco de Entrevistas & Making of -->
+    <!-- Rodapé -->
+    <footer>
+        <div class="text-center p-3 footer-props" >
+            <p class="footertext">© 2022 Copyright: Desenvolvimento de Interfaces Web -
+                <b>ICEI PUC MINAS</b>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Javascript 2.10 - 04/2022 -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+        crossorigin="anonymous"></script>-->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
